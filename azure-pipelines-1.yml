@@ -29,6 +29,7 @@ steps:
 - script: |
     pip install pytest pytest-azurepipelines
     pytest
+    python scr/test_test1.py
   displayName: 'pytest'
 
 - script: python scr/startup.py
