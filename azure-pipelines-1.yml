@@ -10,8 +10,6 @@ pool:
   vmImage: 'ubuntu-latest'
 strategy:
   matrix:
-    Python27:
-      python.version: '2.7'
     Python37:
       python.version: '3.7'
 
@@ -26,5 +24,5 @@ steps:
     pip install -r requirements.txt
   displayName: 'Install dependencies'
 
-- script: python scr/startup.py
+- script: python startup.py
 
