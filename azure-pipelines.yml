@@ -11,7 +11,7 @@ variables:
   azureServiceConnectionId: 'a54cdec9-c6f2-4bf8-813e-1c60eebfa044'
   
   # Web app name
-  webAppName: 'prasun.agrawal_rg_Linux_centralus'
+  webAppName: 'azure-prasun-demo'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
